@@ -1,0 +1,158 @@
+{
+  "banners": [
+    {
+      "title": "Summer Sale",
+      "description": "Enjoy up to 50% off on all summer products!",
+      "image": "assets/images.png"
+    },
+    {
+      "title": "New Arrivals",
+      "description": "Check out the latest trends in our collection.",
+      "image": "assets/images.png"
+    },
+    {
+      "title": "Holiday Discounts",
+      "description": "Get amazing discounts on holiday gifts and more!",
+      "image": "assets/images.png"
+    },
+    {
+      "title": "Exclusive Offer",
+      "description": "Sign up now and get an exclusive 10% discount.",
+      "image": "assets/images.png"
+    }
+  ],
+
+  "categories": [
+    {
+      "title": "Dentistry",
+      "icon": "assets/tooth.png",
+      "bg_color": "#FFCCCB"
+    },
+    {
+      "title": "Cardiology",
+      "icon": "assets/cardiology.png",
+      "bg_color": "#90EE90"
+    },
+    {
+      "title": "Pulmonology",
+      "icon": "assets/pulmonology.png",
+      "bg_color": "#FFD700"
+    },
+    {
+      "title": "General",
+      "icon": "assets/stethoscope.png",
+      "bg_color": "#DDA0DD"
+    },
+    {
+      "title": "Neurology",
+      "icon": "assets/neurology.png",
+      "bg_color": "#90EE90"
+    },
+    {
+      "title": "Gastroenterology",
+      "icon": "assets/gastroenterology.png",
+      "bg_color": "#DDA0DD"
+    },
+    {
+      "title": "Laboratory",
+      "icon": "assets/laboratory.png",
+      "bg_color": "#FFB6C1"
+    },
+    {
+      "title": "Vaccination",
+      "icon": "assets/vaccine.png",
+      "bg_color": "#ADD8E6"
+    }
+  ],
+
+  "nearby_centers": [
+    {
+      "image": "assets/medical_center1.jpg",
+      "title": "Medical Center 1",
+      "location_name": "Location 1",
+      "review_rate": 4.1,
+      "count_reviews": 102,
+      "distance_km": 1.1,
+      "distance_minutes": 6
+    },
+    {
+      "image": "assets/medical_center2.jpg",
+      "title": "Medical Center 2",
+      "location_name": "Location 2",
+      "review_rate": 4.2,
+      "count_reviews": 104,
+      "distance_km": 1.1,
+      "distance_minutes": 7
+    },
+    {
+      "image": "assets/medical_center1.jpg",
+      "title": "Medical Center 3",
+      "location_name": "Location 3",
+      "review_rate": 4.3,
+      "count_reviews": 106,
+      "distance_km": 1.1,
+      "distance_minutes": 8
+    },
+    {
+      "image": "assets/medical_center2.jpg",
+      "title": "Medical Center 4",
+      "location_name": "Location 4",
+      "review_rate": 4.4,
+      "count_reviews": 108,
+      "distance_km": 1.2,
+      "distance_minutes": 9
+    },
+    {
+      "image": "assets/medical_center1.jpg",
+      "title": "Medical Center 5",
+      "location_name": "Location 5",
+      "review_rate": 4.5,
+      "count_reviews": 110,
+      "distance_km": 1.2,
+      "distance_minutes": 10
+    }
+  ],
+
+  "doctors": [
+    {
+      "image": "assets/doctor.png",
+      "full_name": "Dr. Full Name 1",
+      "type_of_doctor": "Cardiologist",
+      "location_of_center": "Health Center 1, USA",
+      "review_rate": 5.0,
+      "reviews_count": 53
+    },
+    {
+      "image": "assets/doctor.png",
+      "full_name": "Dr. Full Name 2",
+      "type_of_doctor": "Pediatrician",
+      "location_of_center": "Health Center 2, USA",
+      "review_rate": 4.2,
+      "reviews_count": 56
+    },
+    {
+      "image": "assets/doctor.png",
+      "full_name": "Dr. Full Name 3",
+      "type_of_doctor": "Dermatologist",
+      "location_of_center": "Health Center 3, USA",
+      "review_rate": 4.3,
+      "reviews_count": 59
+    },
+    {
+      "image": "assets/doctor.png",
+      "full_name": "Dr. Full Name 4",
+      "type_of_doctor": "Orthopedic Surgeon",
+      "location_of_center": "Health Center 4, USA",
+      "review_rate": 3.0,
+      "reviews_count": 62
+    },
+    {
+      "image": "assets/doctor.png",
+      "full_name": "Dr. Full Name 5",
+      "type_of_doctor": "Dentist",
+      "location_of_center": "Health Center 5, USA",
+      "review_rate": 2.5,
+      "reviews_count": 65
+    }
+  ]
+}

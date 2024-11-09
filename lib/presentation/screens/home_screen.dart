@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:developer';
 import 'package:doctorappointment_v3/data/data_models/banner_data_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -14,6 +13,8 @@ import '../widgets/medical_center_card_widget.dart';
 import '../widgets/search_bar_widget.dart';
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
@@ -39,10 +40,10 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> loadJsonData() async {
-    // Load each JSON file
+    // Load JSON file
     final String dataResponse = await rootBundle.loadString('assets/data.json');
 
-    // Decode each JSON file's content
+    // Decode JSON file's content
     final data = json.decode(dataResponse);
 
     setState(() {
@@ -86,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               // #################### Search Bar ####################
               SearchBarWidget(),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
 
               // #################### Carousel Slider ####################
               CarouselSliderWidget(
@@ -97,10 +98,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   });
                 },
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
 
               // #################### Categories ####################
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text('Categories',
@@ -109,7 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text('See All', style: TextStyle(color: Colors.grey)),
                 ],
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
 
               Wrap(
                 alignment: WrapAlignment.center,
@@ -124,10 +125,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   );
                 }).toList(),
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
 
               // #################### Nearby Medical Centers ####################
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text('Nearby Medical Centers',
@@ -138,7 +139,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text('See All', style: TextStyle(color: Colors.grey)),
                 ],
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               SizedBox(
                 height: 230,
                 child: ListView.builder(
@@ -149,10 +150,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   },
                 ),
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
 
               // #################### Doctor List ####################
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text('532 Found',
@@ -167,7 +168,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
 
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Column(
                 children: doctors
                     .map((doctor) => DoctorCard(doctor: doctor))
